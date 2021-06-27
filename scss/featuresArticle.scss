@@ -1,0 +1,121 @@
+#features {
+  display: flex;
+  justify-content: space-around;
+  background-image:
+  linear-gradient(90deg, rgba(226,120,102,0.42) 0%, rgba(102,150,226,0.42) 100%),
+  url(../assets/features-cover.png);
+  background-size: cover;
+  padding: 20%;
+
+  // Buttons stuff
+  .features-buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    .features-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 100px;
+      background: #A37169;
+      color: white;
+      margin: 20px;
+      margin-right: 169px;
+      box-shadow: 0px 3px 6px #00000029;
+      transition: all 0.05s;
+      span {
+        font-size: 14px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+
+      span {
+        transform: rotate(315deg);
+        opacity: 50%;
+      }
+    }
+
+    .features-button-active {
+      background: #E27866;
+      span {
+        opacity: 100%;
+      }
+    }
+  }
+}
+
+.first-text {
+  width: 509px;
+  height: 124px;
+  text-align: left;
+  font-size: 36px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  font-family: Montserrat, semiBold;
+
+}
+
+.second-text {
+  width: 517px;
+  height: 138px;
+  text-align: left;
+  font-size: 14px;
+  font-family: Montserrat, Regular;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin-right: 100px;
+  padding-top: 33px;
+}
+
+.paragraph2 {
+  padding-right: 100px;
+}
+
+.kopustas {
+  background-image: url(..app/assets/kopustas.png);
+  top: 930px;
+  left: 890px;
+  width: 168px;
+  height: 168px;
+  background: #E27866 0% 0% no-repeat padding-box;
+  opacity: 0.8;
+  width: 168px;
+  height: 168px;
+}
+
+.meal {
+  background-image: url(..app/assets/meal.png);
+}
+
+.staires {
+  top: 1119px;
+  left: 890px;
+  width: 362px;
+  height: 177px;
+  background: url(..app/assets/staires.png);
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+
+
+
+// Swiper stuff
+//   .swiper2 {
+//     width: 100%;
+//     .swiper-slide {
+//       width: 100%;
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+//       .slide-header {
+//         font-size: 30px;
+//       }
+//       img {
+//         width: 200px;
+//         height: 200px;
+//         object-fit: contain;
+//       }
+//     }
+//   }
+// }
